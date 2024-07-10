@@ -1,3 +1,4 @@
+#include "stdio.h"
 #include "stm32f10x.h"                  // Device header
 #include "OLED.h"
 #include "OLED_Data.h"
@@ -26,8 +27,7 @@ int main (void)
 	OLED_ShowChinese(65,25,"内敛的");
 	//Delay_ms(1000);
 	OLED_ShowChinese(70,45,"战士！");
-	
-
+	printf("abc");
 	
 	OLED_Update();
 	while(1)
