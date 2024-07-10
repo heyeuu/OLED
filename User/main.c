@@ -27,7 +27,7 @@ int main (void)
 	//Delay_ms(1000);
 	OLED_ShowChinese(70,45,"战士！");
 	
-
+	printf("a");
 	
 	OLED_Update();
 	while(1)
